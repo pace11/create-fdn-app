@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?imld5s');
+  src:  url('fonts/icomoon.eot?imld5s#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?imld5s') format('truetype'),
+    url('fonts/icomoon.woff?imld5s') format('woff'),
+    url('fonts/icomoon.svg?imld5s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-display: swap;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-eye:before {
+  content: "\ae903";
+}
+.icon-label_new:before {
+  content: "\ae901";
+  color: #da254e;
+}
+.icon-ic_register:before {
+  content: "\e900";
+}
+.icon-ic_thumbs_down_active:before {
+  content: "\ea900";
+  color: #db284e;
+}
+.icon-ic_thumbs_down_normal:before {
+  content: "\ea901";
+  color: #dd264c;
+}
+.icon-ic_thumbs_up_active:before {
+  content: "\ea902";
+  color: #db284e;
+}
+.icon-ic_thumbs_up_normal:before {
+  content: "\ea903";
+  color: #dd264c;
+}
+.icon-ic_no_reviews:before {
+  content: "\ae900";
+  color: #db284e;
+}
+.icon-ic_thumbs:before {
+  content: "\ea982";
+  color: #f4bec9;
+}
+.icon-ic_stars_5:before {
+  content: "\ea977";
+  color: #db284e;
+}
+.icon-ic_stars_4:before {
+  content: "\ea978";
+  color: #d90734;
+}
+.icon-ic_stars_3:before {
+  content: "\ea979";
+  color: #ac0126;
+}
+.icon-ic_stars_2:before {
+  content: "\ea981";
+  color: #8c152e;
+}
+.icon-ic_stars_1:before {
+  content: "\ea980";
+  color: #65061a;
+}
+.icon-ic_girl_shadow:before {
+  content: "\a983";
+  color: #f4bec9;
+}
+.icon-ic_stamp:before {
+  content: "\a984";
+  color: #da284f;
+}
+.icon-ic_broken:before {
+  content: "\a985";
+  color: #db284e;
+}
+.icon-ic_thumbs_down .path1:before {
+  content: "\a999";
+  color: rgb(210, 63, 63);
+}
+.icon-ic_thumbs_down .path2:before {
+  content: "\a99a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic_pencil:before {
+  content: "\a998";
+  color: #9b9b9b;
+}
+.icon-ic_comment:before {
+  content: "\a997";
+  color: #9b9b9b;
+}
+.icon-ic_like:before {
+  content: "\a996";
+  color: #9b9b9b;
+}
+.icon-ic_liked:before {
+  content: "\ae997";
+  color: #db284e;
+}
+.icon-ic_clock:before {
+  content: "\a995";
+}
+.icon-ic_shop:before {
+  content: "\a994";
+}
+.icon-ic_thumbs_up .path1:before {
+  content: "\a991";
+  color: rgb(80, 191, 120);
+}
+.icon-ic_thumbs_up .path2:before {
+  content: "\a99b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic_stars_pink:before {
+  content: "\a992";
+  color: #db284e;
+}
+.icon-ic_stars_pink_light:before {
+  content: "\ea976";
+  color: #db284e;
+}
+.icon-logo_tokopedia .path1:before {
+  content: "\ea989";
+  color: rgb(76, 184, 82);
+}
+.icon-logo_tokopedia .path2:before {
+  content: "\ea98a";
+  margin-left: -4.259765625em;
+  color: rgb(208, 235, 209);
+}
+.icon-logo_tokopedia .path3:before {
+  content: "\ea98b";
+  margin-left: -4.259765625em;
+  color: rgb(57, 177, 64);
+}
+.icon-logo_tokopedia .path4:before {
+  content: "\ea98c";
+  margin-left: -4.259765625em;
+  color: rgb(73, 183, 80);
+}
+.icon-logo_tokopedia .path5:before {
+  content: "\ea98d";
+  margin-left: -4.259765625em;
+  color: rgb(54, 176, 61);
+}
+.icon-logo_tokopedia .path6:before {
+  content: "\ea98e";
+  margin-left: -4.259765625em;
+  color: rgb(57, 177, 64);
+}
+.icon-logo_tokopedia .path7:before {
+  content: "\ea98f";
+  margin-left: -4.259765625em;
+  color: rgb(118, 200, 122);
+}
+.icon-logo_tokopedia .path8:before {
+  content: "\ea990";
+  margin-left: -4.259765625em;
+  color: rgb(53, 175, 60);
+}
+.icon-logo_tokopedia .path9:before {
+  content: "\ea991";
+  margin-left: -4.259765625em;
+  color: rgb(53, 176, 61);
+}
+.icon-logo_tokopedia .path10:before {
+  content: "\ea992";
+  margin-left: -4.259765625em;
+  color: rgb(79, 185, 85);
+}
+.icon-logo_tokopedia .path11:before {
+  content: "\ea993";
+  margin-left: -4.259765625em;
+  color: rgb(58, 177, 65);
+}
+.icon-logo_tokopedia .path12:before {
+  content: "\ea994";
+  margin-left: -4.259765625em;
+  color: rgb(62, 179, 69);
+}
+.icon-logo_tokopedia .path13:before {
+  content: "\ea995";
+  margin-left: -4.259765625em;
+  color: rgb(59, 177, 66);
+}
+.icon-logo_tokopedia .path14:before {
+  content: "\ea996";
+  margin-left: -4.259765625em;
+  color: rgb(58, 177, 65);
+}
+.icon-logo_tokopedia .path15:before {
+  content: "\ea997";
+  margin-left: -4.259765625em;
+  color: rgb(57, 177, 64);
+}
+.icon-logo_tokopedia .path16:before {
+  content: "\ea998";
+  margin-left: -4.259765625em;
+  color: rgb(203, 234, 205);
+}
+.icon-logo_tokopedia .path17:before {
+  content: "\ea999";
+  margin-left: -4.259765625em;
+  color: rgb(65, 180, 72);
+}
+.icon-logo_tokopedia .path18:before {
+  content: "\ea99a";
+  margin-left: -4.259765625em;
+  color: rgb(135, 207, 140);
+}
+.icon-logo_tokopedia .path19:before {
+  content: "\ea99b";
+  margin-left: -4.259765625em;
+  color: rgb(66, 180, 73);
+}
+.icon-logo_tokopedia .path20:before {
+  content: "\ea99c";
+  margin-left: -4.259765625em;
+  color: rgb(57, 177, 63);
+}
+.icon-logo_tokopedia .path21:before {
+  content: "\ea99d";
+  margin-left: -4.259765625em;
+  color: rgb(56, 176, 64);
+}
+.icon-logo_tokopedia .path22:before {
+  content: "\ea99e";
+  margin-left: -4.259765625em;
+  color: rgb(58, 177, 65);
+}
+.icon-logo_tokopedia .path23:before {
+  content: "\ea99f";
+  margin-left: -4.259765625em;
+  color: rgb(66, 180, 73);
+}
+.icon-logo_tokopedia .path24:before {
+  content: "\ea9a0";
+  margin-left: -4.259765625em;
+  color: rgb(57, 177, 64);
+}
+.icon-logo_tokopedia .path25:before {
+  content: "\ea9a1";
+  margin-left: -4.259765625em;
+  color: rgb(53, 175, 61);
+}
+.icon-logo_tokopedia .path26:before {
+  content: "\ea9a2";
+  margin-left: -4.259765625em;
+  color: rgb(48, 174, 56);
+}
+.icon-ic_basket:before {
+  content: "\a988";
+  color: #db284e;
+}
+.icon-ic_close_green .path1:before {
+  content: "\a987";
+  color: rgb(58, 172, 64);
+}
+.icon-ic_close_green .path2:before {
+  content: "\a9c8";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic_close_green .path3:before {
+  content: "\a9c9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-ic_calendar:before {
+  content: "\a986";
+  color: #9c9c9c;
+}

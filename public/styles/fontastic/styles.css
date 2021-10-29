@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fd-icon";
+  src:url("fonts/fd-icon.eot");
+  src:url("fonts/fd-icon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fd-icon.woff") format("woff"),
+    url("fonts/fd-icon.ttf") format("truetype"),
+    url("fonts/fd-icon.svg#fd-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+[data-icon]:before {
+  font-family: "fd-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  font-display: swap;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fdicon-"]:before,
+[class*=" fdicon-"]:before {
+  font-family: "fd-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fdicon-gb:before {
+  content: "\61";
+}
+.fdicon-md:before {
+  content: "\62";
+}
+.fdicon-fd:before {
+  content: "\64";
+}
+.fdicon-warning:before {
+  content: "\65";
+}
+.fdicon-checkverify:before {
+  content: "\66";
+}
+.fdicon-logo-fd-editorial:before {
+  content: "\68";
+}
+.fdicon-logo-fd-review:before {
+  content: "\69";
+}
+.fdicon-logo-fd-shop:before {
+  content: "\6a";
+}
+.fdicon-logo-fd-talk:before {
+  content: "\6b";
+}
+.fdicon-po-body:before {
+  content: "\6c";
+}
+.fdicon-po-brands:before {
+  content: "\6d";
+}
+.fdicon-po-fragrance:before {
+  content: "\6e";
+}
+.fdicon-po-hair:before {
+  content: "\6f";
+}
+.fdicon-po-makeup:before {
+  content: "\70";
+}
+.fdicon-po-nails:before {
+  content: "\71";
+}
+.fdicon-po-skincare:before {
+  content: "\72";
+}
+.fdicon-female-daily-logo-1:before {
+  content: "\67";
+}
+.fdicon-po-tools:before {
+  content: "\73";
+}
+.fdicon-logo-fd-career:before {
+  content: "\74";
+}
+.fdicon-bs-arrow-left:before {
+  content: "\75";
+}
+.fdicon-bs-cart:before {
+  content: "\76";
+}
+.fdicon-bs-check:before {
+  content: "\77";
+}
+.fdicon-bs-chevron-bottom:before {
+  content: "\78";
+}
+.fdicon-bs-chevron-left:before {
+  content: "\79";
+}
+.fdicon-bs-chevron-right:before {
+  content: "\7a";
+}
+.fdicon-bs-chevron-top:before {
+  content: "\41";
+}
+.fdicon-bs-close:before {
+  content: "\42";
+}
+.fdicon-bs-close-rounded:before {
+  content: "\43";
+}
+.fdicon-bs-edit:before {
+  content: "\45";
+}
+.fdicon-bs-filter:before {
+  content: "\46";
+}
+.fdicon-bs-hamburger-menu:before {
+  content: "\47";
+}
+.fdicon-bs-image:before {
+  content: "\48";
+}
+.fdicon-bs-login:before {
+  content: "\49";
+}
+.fdicon-bs-logout:before {
+  content: "\4a";
+}
+.fdicon-bs-minus:before {
+  content: "\4b";
+}
+.fdicon-bs-notif:before {
+  content: "\4c";
+}
+.fdicon-bs-plus:before {
+  content: "\4d";
+}
+.fdicon-bs-profile:before {
+  content: "\4e";
+}
+.fdicon-bs-radio-off:before {
+  content: "\4f";
+}
+.fdicon-bs-radio-on:before {
+  content: "\50";
+}
+.fdicon-bs-review:before {
+  content: "\51";
+}
+.fdicon-bs-setting:before {
+  content: "\53";
+}
+.fdicon-bs-wishlist:before {
+  content: "\55";
+}
+.fdicon-profile-envelope:before {
+  content: "\56";
+}
+.fdicon-profile-envelope-active:before {
+  content: "\57";
+}
+.fdicon-profile-phone:before {
+  content: "\58";
+}
+.fdicon-profile-phone-active:before {
+  content: "\59";
+}
+.fdicon-profile-plus:before {
+  content: "\5a";
+}
+.fdicon-profile-profile:before {
+  content: "\30";
+}
+.fdicon-profile-profile-active:before {
+  content: "\31";
+}
+.fdicon-profile-sad:before {
+  content: "\32";
+}
+.fdicon-profile-sad-active:before {
+  content: "\33";
+}
+.fdicon-profile-smile:before {
+  content: "\34";
+}
+.fdicon-profile-smile-active:before {
+  content: "\35";
+}
+.fdicon-talk-user:before {
+  content: "\36";
+}
+.fdicon-talk-like:before {
+  content: "\37";
+}
+.fdicon-talk-reply:before {
+  content: "\38";
+}
+.fdicon-talk-camera:before {
+  content: "\21";
+}
+.fdicon-talk-video:before {
+  content: "\22";
+}
+.fdicon-bs-search:before {
+  content: "\52";
+}
+.fdicon-talk-like-full:before {
+  content: "\44";
+}
+.fdicon-talk-list:before {
+  content: "\39";
+}
+.fdicon-talk-comment:before {
+  content: "\23";
+}
+.fdicon-talk-edit:before {
+  content: "\54";
+}
+.fdicon-bs:before {
+  content: "\63";
+}
+.fdicon-fd-1:before {
+  content: "\24";
+}
+.fdicon-bs-eye:before {
+  content: "\25";
+}
+.fdicon-bs-eye-off:before {
+  content: "\26";
+}
+.fdicon-arrow-left:before {
+  content: "\27";
+}
+.fdicon-arrow-right:before {
+  content: "\28";
+}
+.fdicon-chev-right:before {
+  content: "\29";
+}
